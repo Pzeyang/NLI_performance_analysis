@@ -66,10 +66,3 @@ And repeat
 Output for each method will be generated in the result Folder
 <ul><li>All the outputs for Quora question pair data are generated inside the quora folder inside results folder</li>
     <li>All the outputs for MSR Paraphrase data are generated inside the MSR folder inside results folder</li> </ul>
-
-
-## References and Acknowledgement
-
-* A
-* B
-* C

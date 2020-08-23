@@ -1,0 +1,21 @@
+###########################requirements.txt################################
+These packages must be present before executing the code
+command: pip install 'package==version'
+
+Packages required
+1. nltk
+    version = '3.4.5'
+2. scipy
+    version = '1.4.1'
+3. pandas
+    version = '0.25.1'
+   
+4. numpy
+    verison = '1.16.5'
+   
+5. keras
+    version = '2.3.1'
+  
+6. tensorflow
+    version = '2.1.0'
+  
