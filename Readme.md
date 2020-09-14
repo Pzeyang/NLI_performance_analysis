@@ -1,5 +1,5 @@
 # Performance Analysis of methodologies for natural language interpretation
-In this project we analyze the performance of traditional NLP methods, machine learning models and ensemble approaches in natural language interpretation by understanding the semantic equivalence of pairs of sentences/questions and classify them as duplicate or not duplicate. The best combination of feature extraction technique and Machine learning model with the best parameter is also found.<br>
+In this project the performance of traditional NLP methods, machine learning models and ensemble approaches in natural language interpretation was analyzed by understanding the semantic equivalence of pairs of sentences/questions and classifying them as duplicate or not duplicate. The best combination of feature extraction technique and Machine learning model with the best parameter is also found.<br>
 We have tested the methods using question pair data set and Microsoft paraphrase data set.
 
 ### Methods
@@ -31,7 +31,7 @@ We have tested the methods using question pair data set and Microsoft paraphrase
 
 
 ## Getting Started
-The models developed for this project can be used for any similar tasks, the following steps will get you a copy of the project up and running on your local machine testing purposes.
+The models developed for this project can be used for any similar tasks, there are many functions created for this project which can be reused for the same purpose.
 
 ### Prerequisites
 Python version 3.7.7 was used for development.<br>
@@ -40,7 +40,9 @@ The packages can be installed using the command:
 ```
 pip install 'package_name'
 ```
-Pretrained glove.6b.50d.txt word embedding was used in the deep learning models to assign weights, the word embedding file can be downloaded from https://nlp.stanford.edu/projects/glove/. The downloaded file must be placed in the word embedding folder, any other pretrained word embedding can be also be used.
+#### Word embedding
+Glove.6b.50d.txt word embedding file is used assigning weights in embedding layer for all deep learning tasks.
+1. Instructions to download the word embedding file is given inside word embedding folder, download the word embedding file fllowin the instruction and keep the glove.6b.50d.txt file inside the word embedding folder.
 
 ### Folder structure
 
@@ -61,8 +63,9 @@ py machine_learning.py
 ```
 this will generate output for all the machine learning models, similarly use deeplearning.py for deeplearning models and NLP_sim.py for similarity based NLP methods
 And repeat
+</ol>
 
 ### output
-Output for each method will be generated in the result Folder
+Output for each method generated inside the result Folder
 <ul><li>All the outputs for Quora question pair data are generated inside the quora folder inside results folder</li>
     <li>All the outputs for MSR Paraphrase data are generated inside the MSR folder inside results folder</li> </ul>
